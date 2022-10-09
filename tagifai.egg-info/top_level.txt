@@ -1,1 +1,4 @@
+config
+data
+tagifai
 venv

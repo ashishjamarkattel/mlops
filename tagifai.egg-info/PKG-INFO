@@ -1,11 +1,7 @@
-Metadata-Version: 1.2
+Metadata-Version: 2.1
 Name: tagifai
 Version: 0.1
 Summary: classification machine learning projects
-Home-page: UNKNOWN
 Author: ashihs
 Author-email: ashishjamarkattel123@gmail.com
-License: UNKNOWN
-Description: UNKNOWN
-Platform: UNKNOWN
 Requires-Python: >3.7

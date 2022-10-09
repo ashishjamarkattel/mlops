@@ -1,0 +1,19 @@
+# mkdocs.yml
+site_name: Mlops practise
+site_url: 
+repo_url: 
+nav:
+  - Home: index.md
+  - workflows:
+    - main: tagifai/main.md
+  - tagifai:
+    - data: tagifai/data.md
+    - evaluate: tagifai/evaluate.md
+    - predict: tagifai/predict.md
+    - train: tagifai/train.md
+    - utils: tagifai/utils.md
+theme: readthedocs
+plugins:
+  - mkdocstrings
+watch:
+  - .  # reload docs for any file changes
