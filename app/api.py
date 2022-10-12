@@ -1,5 +1,6 @@
 # app/api.py
 from fastapi import FastAPI
+import uvicorn
 
 # Define application
 app = FastAPI(
@@ -21,3 +22,7 @@ def _index() -> Dict:
         "data": {},
     }
     return response
+
+
+if __name__ == "__main__":
+    uvicorn.run(app, port= 8000, host = "0.0.0.0")
