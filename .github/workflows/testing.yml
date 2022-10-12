@@ -1,13 +1,13 @@
 name: testing
 on:
-    push:
-        branches:
-        - master
-        - main
-    pull_request:
-        branches:
-        - master
-        - main
+push:
+    branches:
+    - master
+    - main
+pull_request:
+    branches:
+    - master
+    - main
 jobs:
     test-code:
         runs-on: ubuntu-latest
